@@ -64,8 +64,7 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     mmi_relay \
     sx933x_sar \
     touchscreen_mmi \
-    focaltech_0flash_mmi \
-    mmi_sigprint
+    focaltech_0flash_mmi
 
 RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD))
 
