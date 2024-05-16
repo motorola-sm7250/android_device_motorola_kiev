@@ -32,13 +32,4 @@ $(INSTALLED_RECOVERY_KMOD_TARGETS): $(INSTALLED_KERNEL_TARGET)
 	@mkdir -p $(dir $@)
 	cp $(@F:%=$(TARGET_OUT_VENDOR)/lib/modules/%) $(TARGET_RECOVERY_ROOT_OUT)/vendor/lib/modules/
 
-RECOVERY_SH_TARGETS := \
-    load_touch.sh
-
-INSTALLED_RECOVERY_SH_TARGETS := $(RECOVERY_SH_TARGETS:%=$(TARGET_RECOVERY_ROOT_OUT)/vendor/bin/%)
-$(INSTALLED_RECOVERY_SH_TARGETS): $(INSTALLED_KERNEL_TARGET)
-	echo -e ${CL_GRN}"Copying sh to recovery"${CL_RST}
-	@mkdir -p $(dir $@)
-	mv $(@F:%=$(TARGET_OUT_VENDOR)/bin/%) $(TARGET_RECOVERY_ROOT_OUT)/vendor/bin/
-
-$(recovery_uncompressed_ramdisk): $(INSTALLED_RECOVERY_KMOD_TARGETS) $(INSTALLED_RECOVERY_SH_TARGETS)
+$(recovery_uncompressed_ramdisk): $(INSTALLED_RECOVERY_KMOD_TARGETS)

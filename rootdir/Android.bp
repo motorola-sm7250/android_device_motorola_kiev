@@ -21,12 +21,6 @@ sh_binary {
     vendor: true,
 }
 
-sh_binary {
-    name: "load_touch.sh",
-    src: "bin/load_touch.sh",
-    vendor: true,
-}
-
 prebuilt_etc {
     name: "init.mmi.overlay.rc",
     src: "etc/init.mmi.overlay.rc",

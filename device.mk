@@ -108,13 +108,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.mmi.charge.sh \
     init.oem.fingerprint.sh \
-    init.oem.fingerprint2.sh \
-    load_touch.sh
+    init.oem.fingerprint2.sh
 
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
     init.recovery.lkm.rc \
     ueventd.moto.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/load_touch.sh:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/bin/load_touch.sh
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
