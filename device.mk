@@ -76,10 +76,6 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.kiev
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -112,8 +108,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
-    init.recovery.lkm.rc \
-    ueventd.moto.rc
+    init.recovery.lkm.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/load_touch.sh:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/bin/load_touch.sh

@@ -26,9 +26,6 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # ODM
 ODM_MANIFEST_SKUS := \
     dn \

@@ -34,10 +34,3 @@ prebuilt_etc {
     sub_dir: "init",
     recovery: true,
 }
-
-prebuilt_etc {
-    name: "ueventd.moto.rc",
-    filename: "ueventd.rc",
-    src: "etc/ueventd.moto.rc",
-    device_specific: true,
-}
