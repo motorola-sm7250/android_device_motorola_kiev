@@ -16,7 +16,7 @@ vendor/firmware/aw882xx_spk_reg.bin
 
 # Audio - Prebuilt
 vendor/lib/hw/audio.primary.lito.so
-vendor/lib/vndk/libtinyalsa.so
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
 vendor/lib/libmotaudioutils.so
 vendor/lib/libtinycompress_vendor.so
 
