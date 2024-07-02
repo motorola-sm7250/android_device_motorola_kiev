@@ -21,6 +21,12 @@ sh_binary {
     vendor: true,
 }
 
+sh_binary {
+    name: "init.qti.chg_policy.sh",
+    src: "bin/init.qti.chg_policy.sh",
+    vendor: true,
+}
+
 prebuilt_etc {
     name: "init.mmi.overlay.rc",
     src: "etc/init.mmi.overlay.rc",
