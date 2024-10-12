@@ -2,5 +2,8 @@
 # system.prop
 #
 
+# Expose CFA Config to specific apps
+ro.camera.cfa.packagelist=com.motorola.coresettingsext,com.motorola.camera3
+
 # Sensor
 persist.vendor.sensors.allow_non_default_discovery=true

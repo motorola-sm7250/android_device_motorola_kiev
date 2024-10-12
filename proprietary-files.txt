@@ -210,23 +210,45 @@ vendor/lib/hw/sound_trigger.primary.lito.so
 # Media
 vendor/etc/media_lagoon/video_system_specs.json
 
-# Moto Camera3
--product/app/MotCamera2AI/MotCamera2AI.apk
-product/etc/permissions/com.motorola.camera3.xml
-product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
-product/etc/permissions/com.motorola.camera3.lens.xml
-product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
--product/priv-app/MotCamera3/MotCamera3.apk
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
-system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
-system_ext/etc/public.libraries-motocamera.txt
-system_ext/lib/libmcf_native_window_helper.motocamera.so
-system_ext/lib64/libmcf_native_window_helper.motocamera.so
+# Moto Camera3 - from Deivid21
+-product/app/MotCamera2AI/MotCamera2AI.apk;PRESIGNED|5f70cabac3383b038b4722712b48c83f91f577e9
+-product/app/MotoPhotoEditor/MotoPhotoEditor.apk;PRESIGNED|4dd9f88b91b95ee26b8ecdbbc3cb299fe9a32e9d
+-product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Aperture|29b2c821baa30bc90f041cb93ff6630ef2be734e
+-system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED|ea01e925a8ae7d5fa0dbc89759bead573ccb3048
+-system/app/MotoSignature2App/MotoSignature2App.apk;PRESIGNED|c07a82657ccb5c22e4f00d32876ddc370584e6d7
+-system/framework/com.motorola.android.dropboxhelper.jar|5cfe40bbf889fd5d36ca2e6ead89cead23ee03bc
+-system/framework/com.motorola.frameworks.core.addon.jar|b07fabfa985359a190cc2b076ead92143c6907a6
+-system/framework/com.motorola.motosignature.jar|a4a871747131426771c25d887e79e9b0c70fc33b
+-system/framework/moto-checkin.jar|8da1758c3436bb260bd8e33585d77c630aabbbf7
+-system/framework/moto-core_services.jar|67d0d4f6c4749c8498cccb24cd306eb230bb8ba1
+-system/framework/moto-settings.jar|348def685137a2ef487a8b583fccc30e3cabf2fe
+-system_ext/framework/com.motorola.androidx.camera.extensions.jar|f48ae30d4524a30766bfa61703582613a3ef1a5d
+-system_ext/lib/libmcf_native_window_helper.motocamera.so|e6cf1cc996e0a0afc15ec3b71d2999d1be850805
+-system_ext/lib64/libenginepostproc.moto.so|8f8b38f0b73f3ddb7f73991d9eb9a5983f915465
+-system_ext/lib64/libmcf_native_window_helper.motocamera.so|c2c4fa5b6a9e700525b2b1d1d3e5de7822542f3d
 
-# Moto Permissions
-product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml \
-product/etc/permissions/com.motorola.camera3.kiev.xml:vendor/etc/permissions/com.motorola.camera3.kiev.xml \
-product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml
+# Moto Permissions - from Deivid21
+product/etc/init/init.motcamera3.lens.rc|293260214b3b60496fb61709276295f17036f506
+product/etc/permissions/com.motorola.maya.xml|74150293565db36f1627dbfefa8e002bfd2d1992
+product/etc/permissions/com.motorola.photoeditor.xml|b86c9ffee842f3f0a979e4ad8ad893fa2955d923
+product/etc/permissions/com.motorola.camera2.content.ai.xml|2b92c2a59a853d4c9adf3030298772222bac3112
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/com.motorola.camera3.kiev.xml|b85d3bfa9408e33c2c5d33e4110b6df6cff60d51
+product/etc/permissions/com.motorola.camera3.lens.xml|7dfafac8d89447a1e0bc93fd5cea5ca6e5c20bee
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|190b3ce907c094a030c515895e21c6afcecbafc4
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|b759bdaf7baca0dcc8ee5e1d1faf51c78d43c4a1
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml|d99de1fb201aa63d9d543a41104013989fc84dc9
+product/etc/sysconfig/initial-package-stopped-states-com.motorola.camera3.xml|237a3f8bcb2d0ecd051d4fc97238198e052ad496
+system/bin/dropboxhelper|7aaa91ed964750b6fc753c2a88ec388e185e0c90
+system/etc/permissions/com.motorola.frameworks.core.addon.xml|3940e9a53d6adf12cb2e567c5f07cc3eafc3c4cd
+system/etc/permissions/com.motorola.motosignature.xml|657458b1f279e2158db87925dcd518d48f9afcf7
+system/etc/permissions/moto-checkin.xml|3201ceb34785bc2e879a093652127050042a9b63
+system/etc/permissions/moto-core_services.xml|e04036b61adefe98f1e59e47e479d41e695ba94e
+system/etc/permissions/moto-settings.xml|32f6aeb6f8e9211542bf843ba106acc7ab7c2839
+system_ext/bin/motsettings|629acaf083fb5fb9ea171c8e87115918043cae90
+system_ext/etc/public.libraries-moto.txt|3d608932e59db71020f9d5c9a85a7114deae3074
+system_ext/etc/public.libraries-motocamera.txt|29ff03d20e668b106bdaafd77bff9902eb210c39
+system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml|91397cef8b878b6903daf2f2d533d74565012f94
 
 # NFC
 vendor/lib64/libpn557_fw.so

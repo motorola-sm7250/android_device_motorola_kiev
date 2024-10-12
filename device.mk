@@ -18,13 +18,14 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    MotCamera3Tunner
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     LineageSystemUIVariant1 \
     LineageSystemUIVariant2 \
-    LineageSystemUIVariant3 \
+    LineageSystemUIVariant3
 
 # Audio
 PRODUCT_PACKAGES += \

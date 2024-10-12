@@ -1,0 +1,79 @@
+{
+    "devices": [
+        {
+            "device": "kiev",
+            "features": [
+                {"feature": "AUTO_SMILE_CAPTURE"},
+                {"feature": "BACK_MACRO_SWITCH"},
+                {"feature": "BG_SERVICE_PIC_RES_LIMIT", "value": "12000000"}, //4000x3000=12MP
+                {"feature": "BG_SERVICE_PROCESSING"},
+                {"feature": "CINEMAGRAPH"},
+                {"feature": "DEPTH_ENABLED"},
+                {"feature": "DUAL_DEPTH_ALL_SIZES"},
+                {"feature": "DYNAMIC_DEPTH_XMP"},
+                {"feature": "EDITOR_LAYER"},
+                {"feature": "EXTERNAL_MIC"},
+                {"feature": "FACE_BEAUTY_VIDEO"},
+                {"feature": "FILE_FORMAT"},
+                {"feature": "FLASH_DEFAULT", "value": "0"},
+                {"feature": "FULL_FACE_DETECT_HIDDEN"},
+                {"feature": "GESTURE_CAPTURE"},
+                {"feature": "GOOGLE_AR_STICKERS_V2", "exclude-region": "cn"},
+                {"feature": "HIGH_RES_BURST_DISABLE","value": "28000000"},//28M
+                {"feature": "LIB_3A", "value": "1"},
+                {"feature": "LIMIT_SURFACE_SIZE_BY_DEFAULT"},
+                {"feature": "LONG_EXPOSURE"},
+                {"feature": "MCF_SN_TRIGGER", "value": "-1"},
+                {"feature": "QCFA_UPSCALE_ONLY"},
+                {"feature": "QCFA_UPSCALE_ONLY_BOTH_IN_SAT_AND_BACK_MAIN"},
+                {"feature": "SELECTIVE_COLOR"},
+                {"feature": "SELECTIVE_COLOR_VIDEO"},
+                {"feature": "SHOW_FILTER_DOT"},
+                {"feature": "SMART_COMPOSITION"},
+                {"feature": "SUPER_NIGHT", "value": "60"},
+                {"feature": "SUPER_PORTRAIT", "value": "60"},
+                {"feature": "VIDEO_SIZE_LIMIT_WIDTH", "value": "1920"},
+                {"feature": "VIDEO_SNAPSHOT_WITH_ALL_SURFACES"},
+                {"feature": "VIDEO_TIMELAPSE"},
+                {"feature": "ZOOM_BLENDING_VIDEO"}
+            ]
+        },
+        {
+            "device": "kievv",
+            "features": [
+                {"feature": "AUTO_SMILE_CAPTURE"},
+                {"feature": "BACK_MACRO_SWITCH"},
+                {"feature": "BG_SERVICE_PIC_RES_LIMIT", "value": "16000000"}, //16MP
+                {"feature": "BG_SERVICE_PROCESSING"},
+                {"feature": "CINEMAGRAPH"},
+                {"feature": "DEPTH_ENABLED"},
+                {"feature": "DUAL_DEPTH_ALL_SIZES"},
+                {"feature": "DYNAMIC_DEPTH_XMP"},
+                {"feature": "EDITOR_LAYER"},
+                {"feature": "EXTERNAL_MIC"},
+                {"feature": "FACE_BEAUTY_VIDEO"},
+                {"feature": "FILE_FORMAT"},
+                {"feature": "FLASH_DEFAULT", "value": "0"},
+                {"feature": "FULL_FACE_DETECT_HIDDEN"},
+                {"feature": "GESTURE_CAPTURE"},
+                {"feature": "GOOGLE_AR_STICKERS_V2", "exclude-region": "cn"},
+                {"feature": "LIB_3A", "value": "1"},
+                {"feature": "LIMIT_SURFACE_SIZE_BY_DEFAULT"},
+                {"feature": "LONG_EXPOSURE"},
+                {"feature": "MCF_SN_TRIGGER", "value": "-1"},
+                {"feature": "QCFA_UPSCALE_ONLY"},
+                {"feature": "QCFA_UPSCALE_ONLY_BOTH_IN_SAT_AND_BACK_MAIN"},
+                {"feature": "SELECTIVE_COLOR"},
+                {"feature": "SELECTIVE_COLOR_VIDEO"},
+                {"feature": "SHOW_FILTER_DOT"},
+                {"feature": "SMART_COMPOSITION"},
+                {"feature": "SUPER_NIGHT", "value": "60"},
+                {"feature": "SUPER_PORTRAIT", "value": "60"},
+                {"feature": "VIDEO_SIZE_LIMIT_WIDTH", "value": "1920"},
+                {"feature": "VIDEO_SNAPSHOT_WITH_ALL_SURFACES"},
+                {"feature": "VIDEO_TIMELAPSE"},
+                {"feature": "ZOOM_BLENDING_VIDEO"}
+            ]
+        }
+    ]
+}

@@ -1,3 +1,6 @@
+# Camera
+vendor_public_prop(moto_camera_config_prop)
+
 # Motorola
 vendor_public_prop(exported_radio_prop)
 
