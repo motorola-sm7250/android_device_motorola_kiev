@@ -1,5 +1,0 @@
-allow priv_app audio_config_prop:file read;
-allow priv_app audio_config_prop:file open;
-allow priv_app audio_config_prop:file getattr;
-allow priv_app audio_config_prop:file map;
-allow priv_app metadata_file:dir read;
